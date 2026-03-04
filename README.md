@@ -7,7 +7,7 @@
 
 ### Clone the repository
 ```bash 
-git clone https://github.com/Ris-code/Video_player_backend_database.git
+git clone https://github.com/sameer-sde/video-search-backend.git
 ```
 
 ### Install pipenv
