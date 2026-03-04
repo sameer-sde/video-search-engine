@@ -45,7 +45,7 @@ def generate_id(word):
     return hashlib.md5(word.encode()).hexdigest()
 
 def connect():
-    # connect_string = "mongodb+srv://rishav_aich:rishav%402003@test.v0y4koj.mongodb.net/"
+    
     connect_string = settings.MONGO_CONNECTION_STRING
     my_client = MongoClient(connect_string)
     # my_client = MongoClient('mongodb://localhost:27017/')
@@ -58,7 +58,7 @@ def connect():
     return collection_name
 
 def connect_user(): 
-    # connect_string = "mongodb+srv://rishav_aich:rishav%402003@test.v0y4koj.mongodb.net/"
+    
     connect_string = settings.MONGO_CONNECTION_STRING
     my_client = MongoClient(connect_string)
     # my_client = MongoClient('mongodb://localhost:27017/')
